@@ -1,16 +1,22 @@
 import java.util.Scanner;
 
 public class ContaTerminal {
+    //Função para pular linhas e passar a impressão de um "cls"
     static void limpaTela(){
         System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 
     public static void main(String[] args) {
+        //Definição dos atributos da conta
         String nomeCliente, agencia;
         int numero;
         double saldo;
 
         Scanner scanner = new Scanner(System.in);
+
+        /*
+        * Fluxo principal
+        */
 
         System.out.print("Hello world!");
         limpaTela();
